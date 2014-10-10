@@ -155,9 +155,6 @@ function! s:EnablePHPFolds(...) " {{{
 		let currentItem = currentItem + 1
 	endwhile
 
-    :redraw
-	echo s:foldsCreated . " fold(s) created"
-
 	" Restore cursor
 	exec s:savedCursor
 
